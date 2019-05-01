@@ -47,10 +47,10 @@ export default class About extends Component {
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
-                    <i className="icon-phone3" />
+                    <i className="icon-book" />
                 </span>
                 <div className="desc">
-                    <h3>Bachelor of Science (Mechatronics)</h3>
+                    <h3>Bachelor of Science</h3>
                     <p>I am a Mechatronics Major with Computer Science electives from the University of Melbourne</p>
                 </div>
                 </div>
