@@ -346,7 +346,13 @@ figure {
 	@include transition(.5s);
 	@media screen and (max-width: $screen-sm) {
 		width: 100%;
-		padding: 0 1em;
+		padding: 0 0;
+	}
+	#colorlib-inner {
+		@media screen and (max-width: $screen-sm) {
+			width: 100%;
+			padding: 0 1em;
+		}
 	}
 }
 
