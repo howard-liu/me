@@ -11,12 +11,12 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
+                    <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>I'm Howard, a budding web developer in Melbourne, finishing my degree in Mechatronics Engineering.</p>
-                    <p>I currently work for Revel, a startup aiming to connect event hosts with local services. My role as a developer involves mostly front end design and implementation using React with Redux, but I am moving to become more of a full stack developer with NodeJS.</p>
-                    <p>I am a third year student studying a Bachelor of Science (Mechatronics major) in the University of Melbourne. With my general focus towards Mechatronics, my electives have been in programming. I am proficient in Python, Java and C, as well as Object Oriented Programming and the Agile Methodology. Recently I have been interested in Machine Learning and developing my knowledge and skills of that topic outside the classroom.</p>
-                    <p>I was born in Taichung, Taiwan and moved to Auckland, New Zealand for most of my life. I enjoy video/audio production, gymming and going to dog beaches.&nbsp;</p>
+                    <p>I currently work for <a href="https://www.revelthat.com/">Revel</a>, a startup aiming to connect event hosts with local services. My role as a developer involves mostly front end design and implementation using React with Redux, but I am moving to become more of a full stack developer with NodeJS.</p>
+                    <p>I am in my last year studying for a Bachelor of Science (Mechatronics major) in the University of Melbourne, with my electives in programming. Through these classes, I am proficient in Python, Java and C, as well as Object Oriented Programming and the Agile Methodology.</p>
+                    <p>I was born in Taichung, Taiwan and moved to Auckland, New Zealand for most of my life and I moved to Melbourne for university. I enjoy video/audio production, gymming and going to dog beaches.&nbsp;</p>
                     </div>
                 </div>
                 </div>
@@ -58,11 +58,11 @@ export default class About extends Component {
             <div className="col-md-4 text-center animate-box">
                 <div className="services color-5">
                 <span className="icon">
-                    <i className="icon-data" />
+                    <i className="icon-brush" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
-                    <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
+                    <h3>Media creator</h3>
+                    <p>I am experienced in writing, video and audio production, practical animation and social media management</p>
                 </div>
                 </div>
             </div>

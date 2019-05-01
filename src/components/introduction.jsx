@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const background = "images/edited.png";
+const background = "images/edited.jpg";
 
 export default class Introduction extends Component {
   render() {
@@ -31,7 +31,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>I am a<br /> Programmer!</h1>
+                          <h1>I am a<br /> Web Developer!</h1>
                           <p><a className="btn btn-primary btn-learn" href="https://github.com/howard-liu" target="_blank">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>

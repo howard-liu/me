@@ -14,51 +14,51 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-1.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/revel.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 01</a></h3>
-											<span>Website</span>
-											<p className="icon">
+											<h3><a href="https://www.revelthat.com/">Revel</a></h3>
+											<span>Web Development for a startup</span>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-2.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/cards.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 02</a></h3>
-											<span>Animation</span>
-											<p className="icon">
+											<h3><a href="https://github.com/howard-liu/Poker-Project/">Poker Game and Bot</a></h3>
+											<span>Python project (for fun)</span>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-								<div className="project" style={{backgroundImage: 'url(images/img-3.jpg)'}}>
+								<div className="project" style={{backgroundImage: 'url(images/writing.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="work.html">Work 03</a></h3>
-											<span>Illustration</span>
-											<p className="icon">
+											<h3><a href="https://howaliu.wordpress.com/blog/">Blog</a></h3>
+											<span>Writing for fun, when I want to</span>
+											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
 												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
+											</p> */}
 										</div>
 									</div>
 								</div>
 							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
+							{/* <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
 								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
 									<div className="desc">
 										<div className="con">
@@ -102,13 +102,13 @@ export default class Projects extends Component {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 						</div>
-						<div className="row">
+						{/* <div className="row">
 							<div className="col-md-12 animate-box">
 								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</section>
       </div>
