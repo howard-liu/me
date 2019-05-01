@@ -230,7 +230,11 @@ figure {
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
-      padding: 0 1em; } }
+      padding: 0 0; } 
+    #colorlib-inner {
+      width: 100%;
+      padding: 0 1em; } 
+  }
 
 #colorlib-hero {
   min-height: 500px;
