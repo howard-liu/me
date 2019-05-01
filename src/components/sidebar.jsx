@@ -9,17 +9,17 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" role="complementary" className="border js-fullheight">
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/HLiu.png)'}} />
-              <h1 id="colorlib-logo"><a href="index.html">Howard Liu</a></h1>
+              <h1 id="colorlib-logo"><a href="">Howard Liu</a></h1>
               <span className="email"><i className="icon-mail"></i> hwd.liu@gmail.com</span>
-              <span className="number"><i className="icon-phone"></i> 0423 625 055</span>
+              <span className="number"><i className="icon-phone"></i> +61 423 625 055</span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active"><a href="#" data-nav-section="home">Introduction</a></li>
                   <li><a href="#" data-nav-section="about">About</a></li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
+                  <li><a href="#" data-nav-section="projects">Projects</a></li>
+                  {/*<li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                   <li><a href="#" data-nav-section="timeline">Timeline</a></li>
                 </ul>
               </div>
