@@ -28,19 +28,19 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                <span className="heading-meta">What do I do?</span>
+                <h2 className="colorlib-heading">A bit about me...</h2>
             </div>
             </div>
             <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
+            <div className="col-md-4 text-center animate-box" >
                 <div className="services color-1">
                 <span className="icon">
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
-                    <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
+                    <h3 >Web Developer </h3>
+                    <p>I am working with <a href="https://www.revelthat.com/">Revel</a> building a site using JavaScript, React, Redux, HTML, CSS and NodeJS</p>
                 </div>
                 </div>
             </div>
@@ -50,8 +50,8 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
+                    <h3>Bachelor of Science (Mechatronics)</h3>
+                    <p>I am a Mechatronics Major with Computer Science electives from the University of Melbourne</p>
                 </div>
                 </div>
             </div>
