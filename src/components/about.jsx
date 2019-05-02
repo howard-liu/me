@@ -14,7 +14,7 @@ export default class About extends Component {
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>I'm Howard, a budding web developer in Melbourne, finishing my degree in Mechatronics Engineering.</p>
-                    <p>I currently work for <a href="https://www.revelthat.com/">Revel</a>, a startup aiming to connect event hosts with local services. My role as a developer involves mostly front end design and implementation using React with Redux, but I am moving to become more of a full stack developer with NodeJS.</p>
+                    <p>I currently work for <a href="https://www.revelthat.com/" target="_blank">Revel</a>, a startup aiming to connect event hosts with local services. My role as a developer involves mostly front end design and implementation using React with Redux, but I am moving to become more of a full stack developer with NodeJS.</p>
                     <p>I am in my last year studying for a Bachelor of Science (Mechatronics major) in the University of Melbourne, with my electives in programming. Through these classes, I am proficient in Python, Java and C, as well as Object Oriented Programming and the Agile Methodology.</p>
                     <p>I was born in Taichung, Taiwan and moved to Auckland, New Zealand for most of my life and I moved to Melbourne for university. I enjoy video/audio production, gymming and going to dog beaches.&nbsp;</p>
                     </div>
@@ -40,7 +40,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3 >Web Developer </h3>
-                    <p>I am working with <a href="https://www.revelthat.com/">Revel</a> building a site using JavaScript, React, Redux, HTML, CSS and NodeJS</p>
+                    <p>I am working with <a href="https://www.revelthat.com/" target="_blank">Revel</a> building a site using JavaScript, React, Redux, HTML, CSS and NodeJS</p>
                 </div>
                 </div>
             </div>

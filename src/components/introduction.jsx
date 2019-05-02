@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const background = "images/edited.jpg";
+const background = "images/edited2.png";
 
 export default class Introduction extends Component {
   render() {
@@ -47,7 +47,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>Follow <br/>Me! </h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://www.instagram.com/hwd.liu/" target="_blank">Insta<i className="icon-instagram" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://www.instagram.com/hwd.liu/" target="_blank">Instagram<i className="icon-instagram" /></a></p>
                         </div>
                       </div>
                     </div>

@@ -30,7 +30,7 @@ export default class Sidebar extends Component {
                 <li><a href="https://www.instagram.com/hwd.liu/" target="_blank"><i className="icon-instagram" /></a></li>
                 <li><a href="https://www.linkedin.com/in/howard-liu-a1995b102/" target="_blank"><i className="icon-linkedin2" /></a></li>
                 <li><a href="https://github.com/howard-liu" target="_blank"><i className="icon-github"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCB9f9-0PO8mn1kK_ZYwARLA" target="_blank"><i className="icon-play4"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCB9f9-0PO8mn1kK_ZYwARLA" target="_blank"><i className="icon-youtube"></i></a></li>
               </ul>
             </nav>
             <div className="colorlib-footer">

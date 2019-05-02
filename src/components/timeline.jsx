@@ -28,7 +28,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="https://www.revelthat.com/">Web Developer at Revel</a> <span>2019-present</span></h2>
+                        <h2><a href="https://www.revelthat.com/" target="_blank">Web Developer at Revel</a> <span>2019-present</span></h2>
                         <p>{revelText}</p>
                       </div>
                     </div>
@@ -39,7 +39,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="https://plentix.io/">Business Analyst at Plentix</a> <span>2018</span></h2>
+                        <h2><a href="https://plentix.io/" target="_blank">Business Analyst at Plentix</a> <span>2018</span></h2>
                         <p>{plentixText}</p>
                       </div>
                     </div>
@@ -50,7 +50,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="https://www.oaktree.org/">Campaigns Advisor at Oaktree</a> <span>2018</span></h2>
+                        <h2><a href="https://www.oaktree.org/" target="_blank">Campaigns Advisor at Oaktree</a> <span>2018</span></h2>
                         <p>{oaktreeText}</p>
                       </div>
                     </div>
@@ -61,7 +61,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="https://www.unimelb.edu.au/">Bachelor of Science at the University of Melbourne, Majoring in Mechatronics</a> <span>2016-present</span></h2>
+                        <h2><a href="https://www.unimelb.edu.au/" target="_blank">Bachelor of Science at the University of Melbourne, Majoring in Mechatronics</a> <span>2016-present</span></h2>
                         <p>{universityText}</p>
                       </div>
                     </div>
@@ -72,7 +72,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="https://parnellcollege.acgedu.com/">ACG Parnell College</a> <span>2008-2015</span></h2>
+                        <h2><a href="https://parnellcollege.acgedu.com/" target="_blank">ACG Parnell College</a> <span>2008-2015</span></h2>
                         <p>{parnellText}</p> 
                       </div>
                     </div>
@@ -83,7 +83,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2><a href="https://www.google.com/maps/place/Taichung+City,+Taiwan/data=!4m2!3m1!1s0x346917dff97922ef:0x87523ee47ea6447f?sa=X&ved=2ahUKEwjMgrjE-_rhAhUFf30KHZ-sAqQQ8gEwFHoECA4QCA">Howard Liu was born!</a> <span>1998</span></h2>
+                        <h2><a href="https://www.google.com/maps/place/Taichung+City,+Taiwan/data=!4m2!3m1!1s0x346917dff97922ef:0x87523ee47ea6447f?sa=X&ved=2ahUKEwjMgrjE-_rhAhUFf30KHZ-sAqQQ8gEwFHoECA4QCA" target="_blank">Howard Liu was born!</a> <span>1998</span></h2>
                         <p>{bornText}</p> 
                       </div>
                     </div>
