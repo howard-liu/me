@@ -1,5 +1,5 @@
-# Howard Liu Portfolio
-[This](https://howard-liu.github.io/me/) is a landing page for people to get to know me and for me to show off my projects
+# [Howard Liu Portfolio](https://howard-liu.github.io/me/)
+This is a landing page for people to get to know me and for me to show off my projects
 
 ## What's here
 - All my social media and contact details are here
