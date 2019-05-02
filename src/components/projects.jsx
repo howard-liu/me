@@ -17,7 +17,7 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/revel.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="https://www.revelthat.com/">Revel</a></h3>
+											<h3><a href="https://www.revelthat.com/" target="_blank">Revel</a></h3>
 											<span>Web Development for a startup</span>
 											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
@@ -32,7 +32,7 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/cards.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="https://github.com/howard-liu/Poker-Project/">Poker Game and Bot</a></h3>
+											<h3><a href="https://github.com/howard-liu/Poker-Project/" target="_blank">Poker Game and Bot</a></h3>
 											<span>Python project (for fun)</span>
 											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
@@ -47,7 +47,7 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/writing.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<h3><a href="https://howaliu.wordpress.com/blog/">Blog</a></h3>
+											<h3><a href="https://howaliu.wordpress.com/blog/" target="_blank">Blog</a></h3>
 											<span>Writing for fun, when I want to</span>
 											{/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
