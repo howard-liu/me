@@ -1,9 +1,11 @@
 # [Howard Liu Portfolio](https://howard-liu.github.io/me/)
+
 This is a landing page for people to get to know me and for me to show off my projects
 
 ## What's here
-- All my social media and contact details are here
-- My CV (02/05/2019)
+
+- My contact details
+- My CV (26/07/2019)
 - Some cute photos
 - 3 projects:
   - Revel
@@ -12,6 +14,6 @@ This is a landing page for people to get to know me and for me to show off my pr
 - A timeline of my experiences
 
 ## Todo
+
+- Add more projects
 - Move blog from wordpress to another github page
-- Expand projects as I do more
-- My head will always be cut if the webpage is squished flat
