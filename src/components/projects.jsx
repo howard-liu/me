@@ -18,34 +18,71 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row">
+              <a href="https://www.revelthat.com/" target="_blank">
+                <div
+                  className="col-md-4 animate-box"
+                  data-animate-effect="fadeInLeft"
+                >
+                  <div
+                    className="project"
+                    style={{ backgroundImage: "url(images/revel.jpg)" }}
+                  >
+                    <div className="desc">
+                      <div className="con">
+                        <h3 style={{ color: "white" }}>Revel</h3>
+                        <span>
+                          Web Development for a startup <br />
+                          (Code unavailable)
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInLeft"
+                data-animate-effect="fadeInRight"
               >
                 <div
                   className="project"
-                  style={{ backgroundImage: "url(images/revel.jpg)" }}
+                  style={{ backgroundImage: "url(images/writing.jpg)" }}
                 >
                   <div className="desc">
                     <div className="con">
                       <h3>
-                        <a href="https://www.revelthat.com/" target="_blank">
-                          Revel
+                        <a
+                          href="https://howard-liu.github.io/blog/"
+                          target="_blank"
+                        >
+                          Blog
                         </a>
                       </h3>
-                      <span>Web Development for a startup</span>
-                      {/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
+                      <span>Site I made to host my writing</span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://howard-liu.github.io/blog/"
+                            target="_blank"
+                          >
+                            <i className="icon-eye" />
+                          </a>
+                        </span>
+                        <span>
+                          <a
+                            href="https://github.com/howard-liu/blog"
+                            target="_blank"
+                          >
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInRight"
+                data-animate-effect="fadeInTop"
               >
                 <div
                   className="project"
@@ -61,35 +98,7 @@ export default class Projects extends Component {
                           Poker Game and Bot
                         </a>
                       </h3>
-                      <span>Python project (for fun)</span>
-                      {/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-md-4 animate-box"
-                data-animate-effect="fadeInTop"
-              >
-                <div
-                  className="project"
-                  style={{ backgroundImage: "url(images/writing.jpg)" }}
-                >
-                  <div className="desc">
-                    <div className="con">
-                      <h3>
-                        <a
-                          href="https://howaliu.wordpress.com/blog/"
-                          target="_blank"
-                        >
-                          Blog
-                        </a>
-                      </h3>
-                      <span>Writing for fun, when I want to</span>
+                      <span>Python project</span>
                       {/* <p className="icon">
 												<span><a href="#"><i className="icon-share3" /></a></span>
 												<span><a href="#"><i className="icon-eye" /> 100</a></span>
