@@ -34,6 +34,16 @@ export default class Projects extends Component {
                           Web Development for a startup <br />
                           (Code unavailable)
                         </span>
+                        <p className="icon">
+                          <span>
+                            <a
+                              href="https://www.revelthat.com/"
+                              target="_blank"
+                            >
+                              <i className="icon-eye" />
+                            </a>
+                          </span>
+                        </p>
                       </div>
                     </div>
                   </div>
