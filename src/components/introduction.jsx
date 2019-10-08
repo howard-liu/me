@@ -49,7 +49,9 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>
-                            I am a<br /> Web Developer
+                            I am an
+                            <br />
+                            IT Consultant
                           </h1>
                           <p>
                             <a

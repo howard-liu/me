@@ -4,11 +4,12 @@
   "private": true,
   "homepage": "http://howard-liu.github.io/me",
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "gh-pages": "^2.1.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-scripts": "2.1.5",
-    "yarn": "^1.13.0"
+    "tar": "^4.4.10",
+    "yarn": "^1.17.3"
   },
   "scripts": {
     "start": "react-scripts start",

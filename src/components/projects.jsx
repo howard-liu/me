@@ -18,10 +18,35 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row">
-              <a href="https://www.revelthat.com/" target="_blank">
+              <a href="http://www.mescada.com/" target="_blank">
                 <div
                   className="col-md-4 animate-box"
                   data-animate-effect="fadeInLeft"
+                >
+                  <div
+                    className="project"
+                    style={{ backgroundImage: "url(images/mescada.jpg)" }}
+                  >
+                    <div className="desc">
+                      <div className="con">
+                        <h3 style={{ color: "white" }}>Mescada</h3>
+                        <span>IT Consultant for an automation company</span>
+                        <p className="icon">
+                          <span>
+                            <a href="http://www.mescada.com/" target="_blank">
+                              <i className="icon-eye" />
+                            </a>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="https://www.revelthat.com/" target="_blank">
+                <div
+                  className="col-md-4 animate-box"
+                  data-animate-effect="fadeInTop"
                 >
                   <div
                     className="project"
@@ -30,10 +55,7 @@ export default class Projects extends Component {
                     <div className="desc">
                       <div className="con">
                         <h3 style={{ color: "white" }}>Revel</h3>
-                        <span>
-                          Web Development for a startup <br />
-                          (Code unavailable)
-                        </span>
+                        <span>Web Development for a startup</span>
                         <p className="icon">
                           <span>
                             <a
@@ -92,7 +114,7 @@ export default class Projects extends Component {
               </div>
               <div
                 className="col-md-4 animate-box"
-                data-animate-effect="fadeInTop"
+                data-animate-effect="fadeInLeft"
               >
                 <div
                   className="project"
@@ -108,67 +130,90 @@ export default class Projects extends Component {
                           Poker Game and Bot
                         </a>
                       </h3>
-                      <span>Python project</span>
-                      {/* <p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p> */}
+                      <span>
+                        Development of the game and simple agent (Python)
+                      </span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://github.com/howard-liu/Poker-Project/"
+                            target="_blank"
+                          >
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
-              {/* <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-								<div className="project" style={{backgroundImage: 'url(images/img-4.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 04</a></h3>
-											<span>Application</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-								<div className="project" style={{backgroundImage: 'url(images/img-5.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 05</a></h3>
-											<span>Graphic, Logo</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-								<div className="project" style={{backgroundImage: 'url(images/img-6.jpg)'}}>
-									<div className="desc">
-										<div className="con">
-											<h3><a href="work.html">Work 06</a></h3>
-											<span>Web Design</span>
-											<p className="icon">
-												<span><a href="#"><i className="icon-share3" /></a></span>
-												<span><a href="#"><i className="icon-eye" /> 100</a></span>
-												<span><a href="#"><i className="icon-heart" /> 49</a></span>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div> */}
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInTop"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/chess.jpg)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a
+                          href="https://github.com/howard-liu/chess"
+                          target="_blank"
+                        >
+                          Chess Algorithms
+                        </a>
+                      </h3>
+                      <span>An exploration of chess algorithms (Python)</span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://github.com/howard-liu/chess"
+                            target="_blank"
+                          >
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-md-4 animate-box"
+                data-animate-effect="fadeInRight"
+              >
+                <div
+                  className="project"
+                  style={{ backgroundImage: "url(images/2048.png)" }}
+                >
+                  <div className="desc">
+                    <div className="con">
+                      <h3>
+                        <a
+                          href="https://github.com/howard-liu/2048"
+                          target="_blank"
+                        >
+                          2048
+                        </a>
+                      </h3>
+                      <span>Recreation of popular game (Python)</span>
+                      <p className="icon">
+                        <span>
+                          <a
+                            href="https://github.com/howard-liu/2048"
+                            target="_blank"
+                          >
+                            <i className="icon-github" />
+                          </a>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            {/* <div className="row">
-							<div className="col-md-12 animate-box">
-								<p><a href="#" className="btn btn-primary btn-lg btn-load-more">Load more <i className="icon-reload" /></a></p>
-							</div>
-						</div> */}
           </div>
         </section>
       </div>

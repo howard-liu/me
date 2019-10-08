@@ -16,9 +16,20 @@ export default class About extends Component {
                     <div className="about-desc">
                       <span className="heading-meta">About Me</span>
                       <h2 className="colorlib-heading">Who Am I?</h2>
-                      <p>I'm Howard, a web developer in Melbourne.</p>
+                      <p>I'm Howard, an IT Consultant in Melbourne.</p>
                       <p>
                         I currently work for{" "}
+                        <a href="http://www.mescada.com/" target="_blank">
+                          Mescada
+                        </a>
+                        , an industrial automation company that is experienced
+                        in automation design, support, commissioning, fault
+                        finding, plant optimisation and automation products
+                        service and repair.
+                      </p>
+
+                      <p>
+                        I also develop for{" "}
                         <a href="https://www.revelthat.com/" target="_blank">
                           Revel
                         </a>
@@ -59,6 +70,23 @@ export default class About extends Component {
             </div>
             <div className="row row-pt-md">
               <div className="col-md-4 text-center animate-box">
+                <div className="services color-5">
+                  <span className="icon">
+                    <i className="icon-server" />
+                  </span>
+                  <div className="desc">
+                    <h3>IT Consultant</h3>
+                    <p>
+                      I work full time for{" "}
+                      <a href="http://www.mescada.com/" target="_blank">
+                        Mescada
+                      </a>
+                      , an automation company, as a Graduate IT Consultant
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                   <span className="icon">
                     <i className="icon-bulb" />
@@ -66,12 +94,12 @@ export default class About extends Component {
                   <div className="desc">
                     <h3>Web Developer </h3>
                     <p>
-                      I am working with{" "}
+                      I also work with{" "}
                       <a href="https://www.revelthat.com/" target="_blank">
                         Revel
                       </a>{" "}
-                      building a site using ReactJS, Redux, CSS, MongoDB and
-                      NodeJS
+                      during my spare time, building a site using ReactJS,
+                      Redux, CSS, MongoDB and NodeJS
                     </p>
                   </div>
                 </div>
@@ -86,20 +114,6 @@ export default class About extends Component {
                     <p>
                       I am a Mechatronics Major with Computer Science electives
                       from the University of Melbourne
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
-                  <span className="icon">
-                    <i className="icon-brush" />
-                  </span>
-                  <div className="desc">
-                    <h3>Media creator</h3>
-                    <p>
-                      I am experienced in writing, video and audio production,
-                      practical animation and social media management
                     </p>
                   </div>
                 </div>

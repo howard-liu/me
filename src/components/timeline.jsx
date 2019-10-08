@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+const mescadaText =
+  "Mescada is an industrial automation company that is experienced in automation design, support, commissioning, fault finding, plant optimisation and automation products service and repair. My role's main activities are: Software and report design, development and implementation; Fault finding of reporting systems and support; Commissioning of MES/Historian/Reporting systems";
 const revelText =
   "Revel is an end-to-end event planning tool that helps hosts find and manage service vendors in their local area. I am a web developer at Revel using technology such as React with Redux, NodeJS, Responsive CSS, Docker, Studio3T, and Jira. I have implemented Spotify, Soundcloud widgets; redesigned and implemented event service dashboard and service profile; and built venues as a new category, which was a full stack project which increased the scope of the entire company.";
 const oaktreeText =
@@ -29,6 +31,25 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+                  <article
+                    className="timeline-entry animate-box"
+                    data-animate-effect="fadeInLeft"
+                  >
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>
+                          <a href="http://www.mescada.com/" target="_top">
+                            Graduate IT Consultant at Mescada
+                          </a>{" "}
+                          <span>2019-present</span>
+                        </h2>
+                        <p>{mescadaText}</p>
+                      </div>
+                    </div>
+                  </article>
                   <article
                     className="timeline-entry animate-box"
                     data-animate-effect="fadeInLeft"
