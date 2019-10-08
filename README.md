@@ -4,16 +4,17 @@ This is a landing page for people to get to know me and for me to show off my pr
 
 ## What's here
 
-- My contact details
-- My CV (26/07/2019)
+- Background on me
+- My CV
 - Some cute photos
-- 3 projects:
+- My portfolio:
+  - Mescada
   - Revel
-  - Poker game and bot
   - My blog
+  - Poker game and bot
+  - Chess algorithms
+  - 2048
 - A timeline of my experiences
 
-## Todo
 
-- Add more projects
-- Move blog from wordpress to another github page
+(note to self: `npm run deploy`)
