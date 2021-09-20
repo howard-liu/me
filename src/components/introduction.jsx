@@ -31,6 +31,7 @@ export default class Introduction extends Component {
                               className="btn btn-primary btn-learn"
                               href={cvLink}
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               View CV <i className="icon-download4" />
                             </a>
@@ -58,6 +59,7 @@ export default class Introduction extends Component {
                               className="btn btn-primary btn-learn"
                               href="https://github.com/howard-liu"
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               View GitHub <i className="icon-github" />
                             </a>
@@ -84,6 +86,7 @@ export default class Introduction extends Component {
                               className="btn btn-primary btn-learn"
                               href="mailto:www.hwd.liu@gmail.com"
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               Email <i className="icon-mail" />
                             </a>

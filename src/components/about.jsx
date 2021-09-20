@@ -19,30 +19,19 @@ export default class About extends Component {
                       <p>I'm Howard, an IT Consultant in Melbourne.</p>
                       <p>
                         I currently work for{" "}
-                        <a href="http://www.mescada.com/" target="_blank">
+                        <a href="http://www.mescada.com/" target="_blank" rel="noopener noreferrer">
                           Mescada
                         </a>
-                        , an industrial automation company that is experienced
-                        in automation design, support, commissioning, fault
-                        finding, plant optimisation and automation products
-                        service and repair.
-                      </p>
-
-                      <p>
-                        I also develop for{" "}
-                        <a href="https://www.revelthat.com/" target="_blank">
-                          Revel
-                        </a>
-                        , a startup aiming to connect event hosts with local
-                        services. My role mostly involves front end design and
-                        implementation using ReactJS and CSS, but other times it
-                        extends to NodeJS and MongoDB.
+                        , an industrial automation consultancy, specialising as
+                        a Siemens Solution Partner, that works with major
+                        players in the Pharmaceutical, Food & Beverage,
+                        Manufacturing, Chemical and Water industries.
                       </p>
                       <p>
-                        I have also worked as a business analyst and volunteered
-                        as campaigns advisor. This allowed me to gain experience
-                        in media creation and distribution, as well as team
-                        communication.
+                        I have also worked as a web developer, business analyst
+                        and volunteered as campaigns advisor. This allowed me to
+                        gain experience in coding and design, media creation and
+                        distribution, as well as team communication.
                       </p>
                       <p>
                         I was born in Taichung, Taiwan and moved to Auckland,
@@ -78,10 +67,11 @@ export default class About extends Component {
                     <h3>IT Consultant</h3>
                     <p>
                       I work full time for{" "}
-                      <a href="http://www.mescada.com/" target="_blank">
+                      <a href="http://www.mescada.com/" target="_blank" rel="noopener noreferrer">
                         Mescada
                       </a>
-                      , an automation company, as a Graduate IT Consultant
+                      , an automation company, as a IT Consultant. I currently
+                      work full time at CSL Behring for Project Aurora
                     </p>
                   </div>
                 </div>
@@ -95,7 +85,7 @@ export default class About extends Component {
                     <h3>Web Developer </h3>
                     <p>
                       I also work with{" "}
-                      <a href="https://www.revelthat.com/" target="_blank">
+                      <a href="https://www.revelthat.com/" target="_blank" rel="noopener noreferrer">
                         Revel
                       </a>{" "}
                       during my spare time, building a site using ReactJS,

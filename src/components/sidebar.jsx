@@ -6,7 +6,7 @@ export default class Sidebar extends Component {
       <div>
         <div>
           <a
-            href="#"
+            href="/#"
             className="js-colorlib-nav-toggle colorlib-nav-toggle"
             data-toggle="collapse"
             data-target="#navbar"
@@ -15,18 +15,14 @@ export default class Sidebar extends Component {
           >
             <i />
           </a>
-          <aside
-            id="colorlib-aside"
-            role="complementary"
-            className="border js-fullheight"
-          >
+          <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div
                 className="author-img"
                 style={{ backgroundImage: "url(images/HLiu.png)" }}
               />
               <h1 id="colorlib-logo">
-                <a href="">Howard Liu</a>
+                <a href="/#">Howard Liu</a>
               </h1>
               <span className="email">
                 <i className="icon-mail" /> hwd.liu@gmail.com
@@ -37,23 +33,23 @@ export default class Sidebar extends Component {
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active">
-                    <a href="#" data-nav-section="home">
+                    <a href="/#" data-nav-section="home">
                       Introduction
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-nav-section="about">
+                    <a href="/#" data-nav-section="about">
                       About
                     </a>
                   </li>
                   <li>
-                    <a href="#" data-nav-section="projects">
+                    <a href="/#" data-nav-section="projects">
                       Projects
                     </a>
                   </li>
                   {/*<li><a href="#" data-nav-section="blog">Blog</a></li>*/}
                   <li>
-                    <a href="#" data-nav-section="timeline">
+                    <a href="/#" data-nav-section="timeline">
                       Timeline
                     </a>
                   </li>
@@ -63,12 +59,12 @@ export default class Sidebar extends Component {
             <nav id="colorlib-main-menu">
               <ul>
                 {/* <li>
-                  <a href="https://twitter.com/hwd_liu" target="_blank">
+                  <a href="https://twitter.com/hwd_liu" target="_blank" rel="noopener noreferrer">
                     <i className="icon-twitter2" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/hwd.liu/" target="_blank">
+                  <a href="https://www.instagram.com/hwd.liu/" target="_blank" rel="noopener noreferrer">
                     <i className="icon-instagram" />
                   </a>
                 </li> */}
@@ -76,12 +72,17 @@ export default class Sidebar extends Component {
                   <a
                     href="https://www.linkedin.com/in/howard-liu-a1995b102/"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="icon-linkedin2" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://github.com/howard-liu" target="_blank">
+                  <a
+                    href="https://github.com/howard-liu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="icon-github" />
                   </a>
                 </li>
@@ -89,12 +90,17 @@ export default class Sidebar extends Component {
                   <a
                     href="https://www.youtube.com/channel/UCB9f9-0PO8mn1kK_ZYwARLA"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="icon-youtube" />
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:www.hwd.liu@gmail.com" target="_blank">
+                  <a
+                    href="mailto:www.hwd.liu@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i className="icon-mail" />
                   </a>
                 </li>
@@ -103,11 +109,12 @@ export default class Sidebar extends Component {
             <div className="colorlib-footer">
               <p>
                 <small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and{" "}
-                  <i className="icon-beer" aria-hidden="true" />
-                  <br />
                   Thanks{" "}
-                  <a href="https://colorlib.com" target="_blank">
+                  <a
+                    href="https://colorlib.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Colorlib
                   </a>{" "}
                   for inspiration

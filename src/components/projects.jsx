@@ -18,7 +18,11 @@ export default class Projects extends Component {
               </div>
             </div>
             <div className="row">
-              <a href="http://www.mescada.com/" target="_blank">
+              <a
+                href="http://www.mescada.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div
                   className="col-md-4 animate-box"
                   data-animate-effect="fadeInLeft"
@@ -33,7 +37,11 @@ export default class Projects extends Component {
                         <span>IT Consultant for an automation company</span>
                         <p className="icon">
                           <span>
-                            <a href="http://www.mescada.com/" target="_blank">
+                            <a
+                              href="http://www.mescada.com/"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               <i className="icon-eye" />
                             </a>
                           </span>
@@ -43,7 +51,11 @@ export default class Projects extends Component {
                   </div>
                 </div>
               </a>
-              <a href="https://www.revelthat.com/" target="_blank">
+              <a
+                href="https://www.revelthat.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div
                   className="col-md-4 animate-box"
                   data-animate-effect="fadeInTop"
@@ -61,6 +73,7 @@ export default class Projects extends Component {
                             <a
                               href="https://www.revelthat.com/"
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               <i className="icon-eye" />
                             </a>
@@ -85,6 +98,7 @@ export default class Projects extends Component {
                         <a
                           href="https://howard-liu.github.io/blog/"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Blog
                         </a>
@@ -95,6 +109,7 @@ export default class Projects extends Component {
                           <a
                             href="https://howard-liu.github.io/blog/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="icon-eye" />
                           </a>
@@ -103,6 +118,7 @@ export default class Projects extends Component {
                           <a
                             href="https://github.com/howard-liu/blog"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="icon-github" />
                           </a>
@@ -126,6 +142,7 @@ export default class Projects extends Component {
                         <a
                           href="https://github.com/howard-liu/Poker-Project/"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Poker Game and Bot
                         </a>
@@ -138,6 +155,7 @@ export default class Projects extends Component {
                           <a
                             href="https://github.com/howard-liu/Poker-Project/"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="icon-github" />
                           </a>
@@ -161,6 +179,7 @@ export default class Projects extends Component {
                         <a
                           href="https://github.com/howard-liu/chess"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           Chess Algorithms
                         </a>
@@ -171,6 +190,7 @@ export default class Projects extends Component {
                           <a
                             href="https://github.com/howard-liu/chess"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="icon-github" />
                           </a>
@@ -194,6 +214,7 @@ export default class Projects extends Component {
                         <a
                           href="https://github.com/howard-liu/2048"
                           target="_blank"
+                          rel="noopener noreferrer"
                         >
                           2048
                         </a>
@@ -204,6 +225,7 @@ export default class Projects extends Component {
                           <a
                             href="https://github.com/howard-liu/2048"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <i className="icon-github" />
                           </a>

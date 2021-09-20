@@ -113,9 +113,9 @@ export default class Blog extends Component {
             <div className="row">
               <div className="col-md-12 animate-box">
                 <p>
-                  <a href="#" className="btn btn-primary btn-lg btn-load-more">
+                  {/* <a href="#" className="btn btn-primary btn-lg btn-load-more">
                     Load more <i className="icon-reload" />
-                  </a>
+                  </a> */}
                 </p>
               </div>
             </div>
